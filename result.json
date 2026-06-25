@@ -1,0 +1,1399 @@
+{
+ "name": "Дерево знаний",
+ "type": "private_supergroup",
+ "id": 3748166900,
+ "messages": [
+  {
+   "id": 1,
+   "type": "service",
+   "date": "2026-04-23T17:27:34",
+   "date_unixtime": "1776954454",
+   "actor": "Дерево знаний",
+   "actor_id": "channel3748166900",
+   "action": "migrate_from_group",
+   "title": "Дерево знаний",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 2,
+   "type": "service",
+   "date": "2026-04-23T17:28:13",
+   "date_unixtime": "1776954493",
+   "actor": "Svetlana Baliutskaia",
+   "actor_id": "user204205514",
+   "action": "remove_members",
+   "members": [
+    "Svetlana Baliutskaia"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 3,
+   "type": "message",
+   "date": "2026-04-23T17:30:10",
+   "date_unixtime": "1776954610",
+   "from": "Ник",
+   "from_id": "user219428381",
+   "text": "Хэллоу",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Хэллоу"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "type": "message",
+   "date": "2026-04-23T17:30:46",
+   "date_unixtime": "1776954646",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "Привет!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Привет!"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "type": "message",
+   "date": "2026-04-23T17:31:28",
+   "date_unixtime": "1776954688",
+   "from": "Ник",
+   "from_id": "user219428381",
+   "text": "Ты знаешь о чем проект?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ты знаешь о чем проект?"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "type": "message",
+   "date": "2026-04-23T17:31:30",
+   "date_unixtime": "1776954690",
+   "edited": "2026-04-23T17:31:47",
+   "edited_unixtime": "1776954707",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "Предлагаю все, что связанно с данный проектом, обсуждать тут. Там есть ряд задач, на следующей неделе я планирую представить все, что я сделал на сервере",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Предлагаю все, что связанно с данный проектом, обсуждать тут. Там есть ряд задач, на следующей неделе я планирую представить все, что я сделал на сервере"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Полина Хитрун",
+        "from_id": "user561874425",
+        "date": "2026-04-23T17:31:47"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 7,
+   "type": "message",
+   "date": "2026-04-23T17:31:35",
+   "date_unixtime": "1776954695",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "Подозреваю",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Подозреваю"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "type": "message",
+   "date": "2026-04-23T17:32:12",
+   "date_unixtime": "1776954732",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "Я поднял оркестратор апаче айрфлоу и скрипты для скачивания статей через прокси",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Я поднял оркестратор апаче айрфлоу и скрипты для скачивания статей через прокси"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "type": "message",
+   "date": "2026-04-23T17:32:31",
+   "date_unixtime": "1776954751",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "Сейчас пишу скрипт для построения и оценки дерева",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Сейчас пишу скрипт для построения и оценки дерева"
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "type": "message",
+   "date": "2026-04-23T17:32:47",
+   "date_unixtime": "1776954767",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "Там много работы, как технической, так и исследовательской",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Там много работы, как технической, так и исследовательской"
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "type": "message",
+   "date": "2026-04-23T17:33:29",
+   "date_unixtime": "1776954809",
+   "edited": "2026-04-23T17:58:43",
+   "edited_unixtime": "1776956323",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "Для начала я бы просил вас на базовом уровне ознакомится с виртуализацией, а именно докером, а также самим апаче айрфлоу",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Для начала я бы просил вас на базовом уровне ознакомится с виртуализацией, а именно докером, а также самим апаче айрфлоу"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "👌",
+      "recent": [
+       {
+        "from": "Полина Хитрун",
+        "from_id": "user561874425",
+        "date": "2026-04-23T17:58:43"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 12,
+   "type": "service",
+   "date": "2026-04-23T17:57:53",
+   "date_unixtime": "1776956273",
+   "actor": "Andrey",
+   "actor_id": "user32764584",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 13,
+   "type": "message",
+   "date": "2026-04-23T17:58:06",
+   "date_unixtime": "1776956286",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": "Коллеги, добрый день,",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Коллеги, добрый день,"
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "type": "message",
+   "date": "2026-04-23T17:59:00",
+   "date_unixtime": "1776956340",
+   "from": "Полина Хитрун",
+   "from_id": "user561874425",
+   "text": "добрый день!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "добрый день!"
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "type": "message",
+   "date": "2026-04-23T18:00:28",
+   "date_unixtime": "1776956428",
+   "edited": "2026-04-23T18:01:28",
+   "edited_unixtime": "1776956488",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": "Меня зовут Паринов Андрей. Мы только что поговорили с Василием Александровичем, что я и еще трое сотрудников лаборатории подключатся к этому интересному проекту. С вашего позволения я отправлю им ссылку на подключение к группе.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Меня зовут Паринов Андрей. Мы только что поговорили с Василием Александровичем, что я и еще трое сотрудников лаборатории подключатся к этому интересному проекту. С вашего позволения я отправлю им ссылку на подключение к группе."
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "👍",
+      "recent": [
+       {
+        "from": "Denis",
+        "from_id": "user2125889987",
+        "date": "2026-04-23T18:01:28"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 16,
+   "type": "message",
+   "date": "2026-04-23T18:01:16",
+   "date_unixtime": "1776956476",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "reply_to_message_id": 14,
+   "text": "Полина, я так понял Вы сегодня будете к 19:00. Мы могли до встречи с Василием Александровичем встретиться?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Полина, я так понял Вы сегодня будете к 19:00. Мы могли до встречи с Василием Александровичем встретиться?"
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "type": "message",
+   "date": "2026-04-23T18:01:59",
+   "date_unixtime": "1776956519",
+   "from": "Полина Хитрун",
+   "from_id": "user561874425",
+   "reply_to_message_id": 16,
+   "text": "да, но если надо, я могу и раньше подойти, я сейчас уже в корпусе)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "да, но если надо, я могу и раньше подойти, я сейчас уже в корпусе)"
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "type": "message",
+   "date": "2026-04-23T18:02:50",
+   "date_unixtime": "1776956570",
+   "edited": "2026-04-23T18:03:01",
+   "edited_unixtime": "1776956581",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": "Да, было бы замечательно. Я в кабинете  S942",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Да, было бы замечательно. Я в кабинете  S942"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "👌",
+      "recent": [
+       {
+        "from": "Полина Хитрун",
+        "from_id": "user561874425",
+        "date": "2026-04-23T18:03:02"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 19,
+   "type": "service",
+   "date": "2026-04-23T18:38:23",
+   "date_unixtime": "1776958703",
+   "actor": "Eva",
+   "actor_id": "user901281281",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 20,
+   "type": "service",
+   "date": "2026-04-23T19:07:14",
+   "date_unixtime": "1776960434",
+   "actor": "Дюк Дэвонс",
+   "actor_id": "user473725984",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 21,
+   "type": "service",
+   "date": "2026-04-23T19:07:43",
+   "date_unixtime": "1776960463",
+   "actor": "Лёша",
+   "actor_id": "user897941732",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 22,
+   "type": "message",
+   "date": "2026-04-23T20:45:41",
+   "date_unixtime": "1776966341",
+   "edited": "2026-04-23T21:53:51",
+   "edited_unixtime": "1776970431",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "Коллеги, я предлагаю сделать проектный план с задачами и какую-то проектную документацию",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Коллеги, я предлагаю сделать проектный план с задачами и какую-то проектную документацию"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "👍",
+      "recent": [
+       {
+        "from": "Andrey",
+        "from_id": "user32764584",
+        "date": "2026-04-23T21:53:51"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 23,
+   "type": "message",
+   "date": "2026-04-23T21:54:30",
+   "date_unixtime": "1776970470",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://docs.google.com/document/d/1jYNribB0gyldGJFS5wWRy-eaMhb8I9zHrytzpky35eg/edit?usp=sharing"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://docs.google.com/document/d/1jYNribB0gyldGJFS5wWRy-eaMhb8I9zHrytzpky35eg/edit?usp=sharing"
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "type": "service",
+   "date": "2026-04-23T21:54:34",
+   "date_unixtime": "1776970474",
+   "actor": "Andrey",
+   "actor_id": "user32764584",
+   "action": "pin_message",
+   "message_id": 23,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 25,
+   "type": "message",
+   "date": "2026-04-23T21:54:59",
+   "date_unixtime": "1776970499",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": "Было бы удобно созвониться в понедельник в 21:30 по мск ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Было бы удобно созвониться в понедельник в 21:30 по мск ?"
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "type": "message",
+   "date": "2026-04-23T21:55:14",
+   "date_unixtime": "1776970514",
+   "edited": "2026-04-23T21:55:56",
+   "edited_unixtime": "1776970556",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "С моей стороны да",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "С моей стороны да"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "👍",
+      "recent": [
+       {
+        "from": "Andrey",
+        "from_id": "user32764584",
+        "date": "2026-04-23T21:55:56"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 27,
+   "type": "message",
+   "date": "2026-04-23T21:55:53",
+   "date_unixtime": "1776970553",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": [
+    "Ссылка на видеовстречу: ",
+    {
+     "type": "link",
+     "text": "https://telemost.yandex.ru/j/23184524303957"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ссылка на видеовстречу: "
+    },
+    {
+     "type": "link",
+     "text": "https://telemost.yandex.ru/j/23184524303957"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "type": "service",
+   "date": "2026-04-23T21:56:05",
+   "date_unixtime": "1776970565",
+   "actor": "Andrey",
+   "actor_id": "user32764584",
+   "action": "pin_message",
+   "message_id": 27,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 29,
+   "type": "message",
+   "date": "2026-04-27T21:27:00",
+   "date_unixtime": "1777314420",
+   "edited": "2026-04-27T21:27:12",
+   "edited_unixtime": "1777314432",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "reply_to_message_id": 27,
+   "text": "Добрый день, \nЧерез 4 минуты начинаем",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Добрый день, \nЧерез 4 минуты начинаем"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 2,
+      "emoji": "👍",
+      "recent": [
+       {
+        "from": "Eva",
+        "from_id": "user901281281",
+        "date": "2026-04-27T21:29:42"
+       },
+       {
+        "from": "Denis",
+        "from_id": "user2125889987",
+        "date": "2026-04-27T21:27:12"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 37,
+   "type": "message",
+   "date": "2026-04-27T22:06:14",
+   "date_unixtime": "1777316774",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://boringbot.substack.com/p/andrej-karpathys-autoresearch-explained?shem=dsdf%2Csharefoc%2Cagadiscoversdl%2C%2Csh%2Fx%2Fdiscover%2Fm1%2F4"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://boringbot.substack.com/p/andrej-karpathys-autoresearch-explained?shem=dsdf%2Csharefoc%2Cagadiscoversdl%2C%2Csh%2Fx%2Fdiscover%2Fm1%2F4"
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "type": "message",
+   "date": "2026-04-27T22:07:04",
+   "date_unixtime": "1777316824",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://github.com/huggingface/ml-intern?shem=dsdf,sharefoc,agadiscoversdl,,sh/x/discover/m1/4"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://github.com/huggingface/ml-intern?shem=dsdf,sharefoc,agadiscoversdl,,sh/x/discover/m1/4"
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "type": "service",
+   "date": "2026-04-29T12:22:19",
+   "date_unixtime": "1777454539",
+   "actor": "Влад",
+   "actor_id": "user1460681834",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 40,
+   "type": "service",
+   "date": "2026-05-07T15:04:44",
+   "date_unixtime": "1778155484",
+   "actor": "Andrey",
+   "actor_id": "user32764584",
+   "action": "invite_members",
+   "members": [
+    "Иван Троценко"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 41,
+   "type": "service",
+   "date": "2026-06-11T10:18:57",
+   "date_unixtime": "1781162337",
+   "actor": "Andrey",
+   "actor_id": "user32764584",
+   "action": "invite_members",
+   "members": [
+    "Roman Kuzmenko"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 42,
+   "type": "message",
+   "date": "2026-06-11T10:20:04",
+   "date_unixtime": "1781162404",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": "Коллеги, добрый день, \nБыло бы удобро созвониться в понедельник 15 июня в 14:00?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Коллеги, добрый день, \nБыло бы удобро созвониться в понедельник 15 июня в 14:00?"
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "type": "message",
+   "date": "2026-06-11T10:20:53",
+   "date_unixtime": "1781162453",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "Добрый день! А сколько будет длиться созвон?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Добрый день! А сколько будет длиться созвон?"
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "type": "message",
+   "date": "2026-06-11T10:21:17",
+   "date_unixtime": "1781162477",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": "Думаю нам хватит 30 минут",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Думаю нам хватит 30 минут"
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "type": "message",
+   "date": "2026-06-11T10:21:54",
+   "date_unixtime": "1781162514",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": "Денис, получилось подключиться к серверу?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Денис, получилось подключиться к серверу?"
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "type": "message",
+   "date": "2026-06-11T10:23:47",
+   "date_unixtime": "1781162627",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "Я, к сожалению, не смогу подключиться к созвону.  Подключиться к серверу не удалось, нужен пароль. Без пароля не пускает. Я пробовал различные комбинации как с root, так и с s939, но подключиться не удалось",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Я, к сожалению, не смогу подключиться к созвону.  Подключиться к серверу не удалось, нужен пароль. Без пароля не пускает. Я пробовал различные комбинации как с root, так и с s939, но подключиться не удалось"
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "type": "message",
+   "date": "2026-06-11T10:24:58",
+   "date_unixtime": "1781162698",
+   "edited": "2026-06-11T10:25:26",
+   "edited_unixtime": "1781162726",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "Я буду в Москве 18-19 числа",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Я буду в Москве 18-19 числа"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "👍",
+      "recent": [
+       {
+        "from": "Andrey",
+        "from_id": "user32764584",
+        "date": "2026-06-11T10:25:26"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 48,
+   "type": "message",
+   "date": "2026-06-11T10:25:23",
+   "date_unixtime": "1781162723",
+   "edited": "2026-06-11T10:25:35",
+   "edited_unixtime": "1781162735",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "reply_to_message_id": 47,
+   "text": "Можем встретиться",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Можем встретиться"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "👍",
+      "recent": [
+       {
+        "from": "Denis",
+        "from_id": "user2125889987",
+        "date": "2026-06-11T10:25:35"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 49,
+   "type": "message",
+   "date": "2026-06-11T10:25:32",
+   "date_unixtime": "1781162732",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "Можем встретиться на факультете+я физически подключусь к серверу и установлю на него mash console",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Можем встретиться на факультете+я физически подключусь к серверу и установлю на него mash console"
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "type": "message",
+   "date": "2026-06-11T10:25:54",
+   "date_unixtime": "1781162754",
+   "edited": "2026-06-11T10:26:14",
+   "edited_unixtime": "1781162774",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "Я тогда напишу, когда буду на факультете",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Я тогда напишу, когда буду на факультете"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "🤝",
+      "recent": [
+       {
+        "from": "Andrey",
+        "from_id": "user32764584",
+        "date": "2026-06-11T10:26:14"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 51,
+   "type": "message",
+   "date": "2026-06-11T10:28:10",
+   "date_unixtime": "1781162890",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "По поводу созвонов- я не смогу в них участвовать, если они проходят в рабочее время. Я просто работаю на режимом предприятии, тут такое запрещено, да и места особо нет - у нас в кабинете пара человек, а митинг румов нет почти, и они только под внутренние митинги бронируются",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "По поводу созвонов- я не смогу в них участвовать, если они проходят в рабочее время. Я просто работаю на режимом предприятии, тут такое запрещено, да и места особо нет - у нас в кабинете пара человек, а митинг румов нет почти, и они только под внутренние митинги бронируются"
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "type": "message",
+   "date": "2026-06-11T10:33:01",
+   "date_unixtime": "1781163181",
+   "edited": "2026-06-11T10:33:10",
+   "edited_unixtime": "1781163190",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": "Тогда может вечером созвонимся? В 21:00 по мск?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Тогда может вечером созвонимся? В 21:00 по мск?"
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "type": "message",
+   "date": "2026-06-11T10:34:33",
+   "date_unixtime": "1781163273",
+   "edited": "2026-06-11T10:36:03",
+   "edited_unixtime": "1781163363",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "Вечером, в принципе, без проблем, но конкретно по понедельникам именно с 21:00 по 22:00 я занят, но я могу эту занятость немного подвинуть, если других вариантов нет. Может во вторник в это же время, либо в понедельник, но с 20:00?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Вечером, в принципе, без проблем, но конкретно по понедельникам именно с 21:00 по 22:00 я занят, но я могу эту занятость немного подвинуть, если других вариантов нет. Может во вторник в это же время, либо в понедельник, но с 20:00?"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "👍",
+      "recent": [
+       {
+        "from": "Andrey",
+        "from_id": "user32764584",
+        "date": "2026-06-11T10:36:03"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 54,
+   "type": "message",
+   "date": "2026-06-11T10:35:01",
+   "date_unixtime": "1781163301",
+   "edited": "2026-06-11T10:35:48",
+   "edited_unixtime": "1781163348",
+   "from": "Лёша",
+   "from_id": "user897941732",
+   "text": "Добрый день \nМогу присутствовать",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Добрый день \nМогу присутствовать"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "👍",
+      "recent": [
+       {
+        "from": "Andrey",
+        "from_id": "user32764584",
+        "date": "2026-06-11T10:35:48"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 55,
+   "type": "message",
+   "date": "2026-06-11T10:35:58",
+   "date_unixtime": "1781163358",
+   "edited": "2026-06-11T10:38:52",
+   "edited_unixtime": "1781163532",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "reply_to_message_id": 53,
+   "text": "Давайте в 20:00.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Давайте в 20:00."
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "type": "message",
+   "date": "2026-06-11T10:36:22",
+   "date_unixtime": "1781163382",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "Без проблем, спасибо!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Без проблем, спасибо!"
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "type": "message",
+   "date": "2026-06-11T10:37:12",
+   "date_unixtime": "1781163432",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "Это в понедельник вечером, верно?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Это в понедельник вечером, верно?"
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "type": "message",
+   "date": "2026-06-11T10:38:22",
+   "date_unixtime": "1781163502",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "Я, возможно, не так понял. Если сегодня вечером, то я свободен в любое время. Если в понедельник, то только в 20:00 по мск:)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Я, возможно, не так понял. Если сегодня вечером, то я свободен в любое время. Если в понедельник, то только в 20:00 по мск:)"
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "type": "message",
+   "date": "2026-06-11T10:39:35",
+   "date_unixtime": "1781163575",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "reply_to_message_id": 58,
+   "text": "Денис, сможете созвониться сегодня в 20:00?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Денис, сможете созвониться сегодня в 20:00?"
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "type": "message",
+   "date": "2026-06-11T10:39:41",
+   "date_unixtime": "1781163581",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "Да",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Да"
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "type": "message",
+   "date": "2026-06-11T10:40:06",
+   "date_unixtime": "1781163606",
+   "edited": "2026-06-11T10:40:09",
+   "edited_unixtime": "1781163609",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "reply_to_message_id": 27,
+   "text": "Давайте тогда сегодня по этой ссылке",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Давайте тогда сегодня по этой ссылке"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "👍",
+      "recent": [
+       {
+        "from": "Denis",
+        "from_id": "user2125889987",
+        "date": "2026-06-11T10:40:09"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 62,
+   "type": "message",
+   "date": "2026-06-15T19:59:53",
+   "date_unixtime": "1781542793",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "reply_to_message_id": 27,
+   "text": "Добрый вечер,",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Добрый вечер,"
+    }
+   ]
+  },
+  {
+   "id": 63,
+   "type": "message",
+   "date": "2026-06-15T20:01:29",
+   "date_unixtime": "1781542889",
+   "from": "Denis",
+   "from_id": "user2125889987",
+   "text": "3 минуты",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "3 минуты"
+    }
+   ]
+  },
+  {
+   "id": 64,
+   "type": "message",
+   "date": "2026-06-15T20:04:34",
+   "date_unixtime": "1781543074",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://140.86.213.87/"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://140.86.213.87/"
+    }
+   ]
+  },
+  {
+   "id": 65,
+   "type": "message",
+   "date": "2026-06-15T20:05:50",
+   "date_unixtime": "1781543150",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": [
+    {
+     "type": "email",
+     "text": "aparinov@gmail.com"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "email",
+     "text": "aparinov@gmail.com"
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "type": "message",
+   "date": "2026-06-15T20:07:56",
+   "date_unixtime": "1781543276",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "file": "files/OpenAlex_load.ipynb",
+   "file_name": "OpenAlex_load.ipynb",
+   "file_size": 528658,
+   "mime_type": "text/plain",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 67,
+   "type": "message",
+   "date": "2026-06-15T20:10:32",
+   "date_unixtime": "1781543432",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://github.com/DenisBaliuckij/text-corpuses-processing"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://github.com/DenisBaliuckij/text-corpuses-processing"
+    }
+   ]
+  },
+  {
+   "id": 68,
+   "type": "message",
+   "date": "2026-06-15T20:11:51",
+   "date_unixtime": "1781543511",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": "Тема Дениса: Каскадные и совместные архитектуры интеграции разрешения кореференции в построение семантического графа: сравнительное мультиязычное исследование",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Тема Дениса: Каскадные и совместные архитектуры интеграции разрешения кореференции в построение семантического графа: сравнительное мультиязычное исследование"
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "type": "message",
+   "date": "2026-06-15T20:12:20",
+   "date_unixtime": "1781543540",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": "Тема от Громов: Поиск пропусков в графах знаний",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Тема от Громов: Поиск пропусков в графах знаний"
+    }
+   ]
+  },
+  {
+   "id": 70,
+   "type": "message",
+   "date": "2026-06-15T20:15:13",
+   "date_unixtime": "1781543713",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": [
+    "from pypdf import PdfReader\nimport io\nimport os\nfrom ftpConnector import ftpConnector\nfrom repositories.latex_repository import LatexRepository\n\n\ndef run_conversion() -> int:\n    count = 0\n    while True:\n        url = LatexRepository.get_next_to_convert()\n        if url is None:\n            break\n        try:\n            file = ftpConnector.getFile(url)\n            ",
+    {
+     "type": "link",
+     "text": "file.seek"
+    },
+    "(0)\n            reader = PdfReader(file)\n            text = \"\".join(page.extract_text() or \"\" for page in reader.pages)\n            tex_filename = os.path.splitext(url)[0] + '.tex'\n            ftpConnector.storeFile(tex_filename, io.BytesIO(text.encode('utf-8')), 'Tex')\n            LatexRepository.save_location(url, tex_filename)\n            count += 1\n        except Exception as e:\n            print(f\"Failed to convert {url}: {e}\")\n            LatexRepository.save_location(url, 'NA')\n    return count"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "from pypdf import PdfReader\nimport io\nimport os\nfrom ftpConnector import ftpConnector\nfrom repositories.latex_repository import LatexRepository\n\n\ndef run_conversion() -> int:\n    count = 0\n    while True:\n        url = LatexRepository.get_next_to_convert()\n        if url is None:\n            break\n        try:\n            file = ftpConnector.getFile(url)\n            "
+    },
+    {
+     "type": "link",
+     "text": "file.seek"
+    },
+    {
+     "type": "plain",
+     "text": "(0)\n            reader = PdfReader(file)\n            text = \"\".join(page.extract_text() or \"\" for page in reader.pages)\n            tex_filename = os.path.splitext(url)[0] + '.tex'\n            ftpConnector.storeFile(tex_filename, io.BytesIO(text.encode('utf-8')), 'Tex')\n            LatexRepository.save_location(url, tex_filename)\n            count += 1\n        except Exception as e:\n            print(f\"Failed to convert {url}: {e}\")\n            LatexRepository.save_location(url, 'NA')\n    return count"
+    }
+   ]
+  },
+  {
+   "id": 71,
+   "type": "message",
+   "date": "2026-06-15T20:43:32",
+   "date_unixtime": "1781545412",
+   "edited": "2026-06-15T21:12:54",
+   "edited_unixtime": "1781547174",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": "1. Как можно поставить поисковый запрос по которому надо выгрзуить научные статьи, например,  для Pubmed?\n2. Есть ли доступ к FTP с научными статьями выгруженными по запросу ?\n3. БД на SQL Server для хранения инфы о скриптах\n\n\nЗадачи:\n1. Сделать сайт для медиков в котором они могли бы а) авторизация б) вводить поисковый запрос в) выгружать научные статьи на ftp. \n2. Денис: предоставление описание взаимодействия с его системой\n3. Андрей: поднять  ftp сервер\n4. Роман: Сделать сайт\n5. ? : Обработка инфографики",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "1. Как можно поставить поисковый запрос по которому надо выгрзуить научные статьи, например,  для Pubmed?\n2. Есть ли доступ к FTP с научными статьями выгруженными по запросу ?\n3. БД на SQL Server для хранения инфы о скриптах\n\n\nЗадачи:\n1. Сделать сайт для медиков в котором они могли бы а) авторизация б) вводить поисковый запрос в) выгружать научные статьи на ftp. \n2. Денис: предоставление описание взаимодействия с его системой\n3. Андрей: поднять  ftp сервер\n4. Роман: Сделать сайт\n5. ? : Обработка инфографики"
+    }
+   ]
+  },
+  {
+   "id": 72,
+   "type": "message",
+   "date": "2026-06-15T20:56:01",
+   "date_unixtime": "1781546161",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "file": "files/graph.json",
+   "file_name": "graph.json",
+   "file_size": 57327366,
+   "mime_type": "application/json",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 73,
+   "type": "message",
+   "date": "2026-06-15T20:56:02",
+   "date_unixtime": "1781546162",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "file": "files/metrics.json",
+   "file_name": "metrics.json",
+   "file_size": 5231,
+   "mime_type": "application/json",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 74,
+   "type": "message",
+   "date": "2026-06-22T19:24:26",
+   "date_unixtime": "1782145466",
+   "edited": "2026-06-22T19:25:13",
+   "edited_unixtime": "1782145513",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": [
+    {
+     "type": "mention",
+     "text": "@KinWiz"
+    },
+    " ",
+    {
+     "type": "mention",
+     "text": "@dan0nchik"
+    },
+    " ",
+    {
+     "type": "mention",
+     "text": "@ekaesha"
+    },
+    "  Добрый день, \nСегодня в 20:00 обсуждаем успехи по проекту Дерево Знаний."
+   ],
+   "text_entities": [
+    {
+     "type": "mention",
+     "text": "@KinWiz"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "mention",
+     "text": "@dan0nchik"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "mention",
+     "text": "@ekaesha"
+    },
+    {
+     "type": "plain",
+     "text": "  Добрый день, \nСегодня в 20:00 обсуждаем успехи по проекту Дерево Знаний."
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 2,
+      "emoji": "👍",
+      "recent": [
+       {
+        "from": "Eva",
+        "from_id": "user901281281",
+        "date": "2026-06-22T19:28:30"
+       },
+       {
+        "from": "Дюк Дэвонс",
+        "from_id": "user473725984",
+        "date": "2026-06-22T19:25:13"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 75,
+   "type": "message",
+   "date": "2026-06-22T19:54:27",
+   "date_unixtime": "1782147267",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "reply_to_message_id": 27,
+   "text": "Ссылка на звонок",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ссылка на звонок"
+    }
+   ]
+  },
+  {
+   "id": 76,
+   "type": "message",
+   "date": "2026-06-22T20:04:20",
+   "date_unixtime": "1782147860",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://docs.meshcentral.com/"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://docs.meshcentral.com/"
+    }
+   ]
+  },
+  {
+   "id": 77,
+   "type": "message",
+   "date": "2026-06-22T20:11:26",
+   "date_unixtime": "1782148286",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://mathpix.com/"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://mathpix.com/"
+    }
+   ]
+  },
+  {
+   "id": 78,
+   "type": "message",
+   "date": "2026-06-22T20:12:58",
+   "date_unixtime": "1782148378",
+   "edited": "2026-06-22T20:13:28",
+   "edited_unixtime": "1782148408",
+   "from": "Andrey",
+   "from_id": "user32764584",
+   "text": "Ева: веб-сервис по рапознаванию pdf.\nАндрей: разобрать что сделала Ева по статье с FADDIS",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ева: веб-сервис по рапознаванию pdf.\nАндрей: разобрать что сделала Ева по статье с FADDIS"
+    }
+   ]
+  }
+ ]
+}

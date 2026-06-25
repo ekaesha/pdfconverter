@@ -1,0 +1,7 @@
+storage/
+__pycache__/
+*.pyc
+.git/
+.env
+result.json
+deep-research-report.md
